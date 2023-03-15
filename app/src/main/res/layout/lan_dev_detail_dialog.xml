@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lan_dev_detail_dialog_outer_lay_id"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lan_dev_detail_dialog_name_lay_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lan_dev_detail_dialog_name_title" />
+
+        <TextView
+            android:id="@+id/lan_dev_detail_dialog_name_holder_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lan_dev_detail_dialog_name_holder" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lan_dev_detail_dialog_mac_lay_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lan_dev_detail_dialog_mac_title" />
+
+        <TextView
+            android:id="@+id/lan_dev_detail_dialog_mac_holder_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lan_dev_detail_dialog_mac_holder" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lan_dev_detail_dialog_ip_lay_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lan_dev_detail_dialog_ip_title" />
+
+        <TextView
+            android:id="@+id/lan_dev_detail_dialog_ip_holder_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lan_dev_detail_dialog_ip_holder" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lan_dev_detail_dialog_hostname_lay_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lan_dev_detail_dialog_hostname_title" />
+
+        <TextView
+            android:id="@+id/lan_dev_detail_dialog_hostname_holder_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lan_dev_detail_dialog_hostname_holder" />
+    </LinearLayout>
+</LinearLayout>

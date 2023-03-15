@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Ondrej/Downloads/MagicWOL/app/src/main/res/drawable-v24/power_settings_new-48px.xml" value="0.1695" />
+        <entry key="..\:/Users/Ondrej/Downloads/MagicWOL/app/src/main/res/drawable/ic_baseline_power_settings_new_24.xml" value="0.1695" />
+        <entry key="..\:/Users/Ondrej/Downloads/MagicWOL/app/src/main/res/drawable/ic_outline_perm_identity_24.xml" value="0.142" />
+        <entry key="..\:/Users/Ondrej/Downloads/MagicWOL/app/src/main/res/drawable/outline_add_24.xml" value="0.125" />
+        <entry key="..\:/Users/Ondrej/Downloads/MagicWOL/app/src/main/res/drawable/outline_cloud_24.xml" value="0.125" />
+        <entry key="..\:/Users/Ondrej/Downloads/MagicWOL/app/src/main/res/drawable/outline_cloud_off_24.xml" value="0.1695" />
+        <entry key="..\:/Users/Ondrej/Downloads/MagicWOL/app/src/main/res/drawable/outline_lan_20.xml" value="0.125" />
+        <entry key="..\:/Users/Ondrej/Downloads/MagicWOL/app/src/main/res/drawable/outline_lan_24.xml" value="0.125" />
+        <entry key="..\:/Users/Ondrej/Downloads/MagicWOL/app/src/main/res/drawable/outline_school_24.xml" value="0.125" />
+        <entry key="..\:/Users/Ondrej/Downloads/MagicWOL/app/src/main/res/drawable/outline_settings_24.xml" value="0.125" />
+        <entry key="..\:/Users/Ondrej/Downloads/MagicWOL/app/src/main/res/drawable/power_settings_new-24px.xml" value="0.1695" />
+        <entry key="..\:/Users/Ondrej/Downloads/MagicWOL/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/Users/Ondrej/Downloads/MagicWOL/app/src/main/res/layout/add_device_confirm_dialog.xml" value="0.23876404494382023" />
+        <entry key="..\:/Users/Ondrej/Downloads/MagicWOL/app/src/main/res/layout/add_device_confirm_dialog_old.xml" value="0.3796875" />
+        <entry key="..\:/Users/Ondrej/Downloads/MagicWOL/app/src/main/res/layout/add_device_frag.xml" value="0.25815217391304346" />
+        <entry key="..\:/Users/Ondrej/Downloads/MagicWOL/app/src/main/res/layout/add_lan_list_dialog.xml" value="0.26856884057971014" />
+        <entry key="..\:/Users/Ondrej/Downloads/MagicWOL/app/src/main/res/layout/lan_add_device_frag.xml" value="0.2504528985507246" />
+        <entry key="..\:/Users/Ondrej/Downloads/MagicWOL/app/src/main/res/layout/lan_dev_detail_dialog.xml" value="0.18363728470111448" />
+        <entry key="..\:/Users/Ondrej/Downloads/MagicWOL/app/src/main/res/layout/lan_dev_edit_dialog.xml" value="0.1" />
+        <entry key="..\:/Users/Ondrej/Downloads/MagicWOL/app/src/main/res/layout/lan_dev_frag.xml" value="0.1" />
+        <entry key="..\:/Users/Ondrej/Downloads/MagicWOL/app/src/main/res/layout/lan_dev_recap_dialog.xml" value="0.1" />
+        <entry key="..\:/Users/Ondrej/Downloads/MagicWOL/app/src/main/res/layout/lan_dev_single_item_lv.xml" value="0.1" />
+        <entry key="..\:/Users/Ondrej/Downloads/MagicWOL/app/src/main/res/layout/lan_list_edit_dialog.xml" value="0.23731884057971014" />
+        <entry key="..\:/Users/Ondrej/Downloads/MagicWOL/app/src/main/res/layout/lan_list_frag.xml" value="0.2658514492753623" />
+        <entry key="..\:/Users/Ondrej/Downloads/MagicWOL/app/src/main/res/layout/lan_list_item_lv.xml" value="0.2791666666666667" />
+        <entry key="..\:/Users/Ondrej/Downloads/MagicWOL/app/src/main/res/layout/lan_list_single_item_lv.xml" value="0.25" />
+        <entry key="..\:/Users/Ondrej/Downloads/MagicWOL/app/src/main/res/layout/login_frag.xml" value="0.2710526315789474" />
+        <entry key="..\:/Users/Ondrej/Downloads/MagicWOL/app/src/main/res/layout/preference_frag.xml" value="0.2667572463768116" />
+        <entry key="..\:/Users/Ondrej/Downloads/MagicWOL/app/src/main/res/layout/preferences.xml" value="0.42916666666666664" />
+        <entry key="..\:/Users/Ondrej/Downloads/MagicWOL/app/src/main/res/layout/uni_add_device_frag.xml" value="0.25" />
+        <entry key="..\:/Users/Ondrej/Downloads/MagicWOL/app/src/main/res/menu/lan_list_bar.xml" value="0.3177083333333333" />
+        <entry key="..\:/Users/Ondrej/Downloads/MagicWOL/app/src/main/res/menu/menu_nav.xml" value="0.33" />
+        <entry key="..\:/Users/Ondrej/Downloads/MagicWOL/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1605" />
+        <entry key="..\:/Users/Ondrej/Downloads/MagicWOL/app/src/main/res/xml/prefs.xml" value="0.13652482269503546" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="jbr-11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

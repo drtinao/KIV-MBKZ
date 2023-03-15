@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <SearchView
+        android:id="@+id/lan_dev_frag_sv_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:queryHint="@string/lan_dev_frag_sv_hint"
+        android:iconifiedByDefault="false"/>
+
+    <ListView
+        android:id="@+id/lan_dev_frag_lv_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lan_dev_frag_sv_id"/>
+</RelativeLayout>

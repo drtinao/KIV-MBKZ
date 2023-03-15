@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:id="@+id/add_device_confirm_dialog_loc_lay_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_device_confirm_dialog_loc"
+            android:layout_gravity="center_vertical"/>
+
+        <RadioGroup
+            android:id="@+id/add_device_confirm_dialog_loc_rg_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:checkedButton="@id/add_device_confirm_dialog_loc_uni_rb_id">
+
+            <RadioButton
+                android:id="@+id/add_device_confirm_dialog_loc_uni_rb_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add_device_confirm_dialog_loc_uni" />
+
+            <RadioButton
+                android:id="@+id/add_device_confirm_dialog_loc_segment_rb_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/add_device_confirm_dialog_loc_seg" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/add_device_confirm_dialog_list_lay_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_device_confirm_dialog_loc_lay_id"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/add_device_confirm_dialog_list_lay_id"
+            android:layout_weight="1"
+            android:padding="15dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_device_confirm_dialog_list_add" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/add_device_confirm_dialog_recap_tv_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_device_confirm_dialog_list_lay_id"
+        android:layout_centerHorizontal="true"
+        android:text="@string/add_device_confirm_dialog_recap" />
+
+    <LinearLayout
+        android:id="@+id/add_device_confirm_dialog_ip_recap_lay_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_device_confirm_dialog_recap_tv_id"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_device_confirm_dialog_ip_recap_title" />
+
+        <TextView
+            android:id="@+id/add_device_confirm_dialog_ip_holder_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_device_confirm_dialog_ip_recap_holder" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/add_device_confirm_dialog_hostname_recap_lay_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_device_confirm_dialog_ip_recap_lay_id"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_device_confirm_dialog_hostname_recap_title" />
+
+        <TextView
+            android:id="@+id/add_device_confirm_dialog_hostname_holder_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_device_confirm_dialog_hostname_recap_holder" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/add_device_confirm_dialog_mac_recap_lay_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_device_confirm_dialog_hostname_recap_lay_id"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_device_confirm_dialog_mac_recap_title" />
+
+        <TextView
+            android:id="@+id/add_device_confirm_dialog_mac_holder_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_device_confirm_dialog_mac_recap_holder" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/add_device_confirm_dialog_name_recap_lay_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_device_confirm_dialog_mac_recap_lay_id"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_device_confirm_dialog_name_recap_title" />
+
+        <TextView
+            android:id="@+id/add_device_confirm_dialog_name_holder_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_device_confirm_dialog_name_recap_holder" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/add_device_confirm_dialog_category_recap_lay_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_device_confirm_dialog_name_recap_lay_id"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_device_confirm_dialog_category_recap_title" />
+
+        <TextView
+            android:id="@+id/add_device_confirm_dialog_category_holder_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_device_confirm_dialog_category_recap_holder" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/add_device_confirm_dialog_list_recap_lay_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_device_confirm_dialog_category_recap_lay_id"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_device_confirm_dialog_list_recap_title" />
+
+        <TextView
+            android:id="@+id/add_device_confirm_dialog_list_holder_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_device_confirm_dialog_list_recap_holder" />
+    </LinearLayout>
+</RelativeLayout>

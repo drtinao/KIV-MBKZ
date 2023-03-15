@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- this file contains names of modules inside the app and is used as a core for navigation panel (slide from left side of the screen to make it visible) -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <!-- menu items regarding to uni devices - START -->
+        <item android:title="@string/menu_nav_uni">
+            <menu>
+                <item
+                    android:id="@+id/menu_nav_uni_lists_id"
+                    android:icon="@drawable/outline_school_24"
+                    android:title="@string/menu_nav_uni_lists" />
+                <item
+                    android:id="@+id/menu_nav_uni_add_device_id"
+                    android:icon="@drawable/outline_add_24"
+                    android:title="@string/menu_nav_uni_add_device" />
+            </menu>
+        </item>
+        <!-- menu items regarding to uni devices - END -->
+
+        <!-- menu items regarding to LAN devices - START -->
+        <item android:title="@string/menu_nav_lan">
+            <menu>
+                <item
+                    android:id="@+id/menu_nav_lan_lists_id"
+                    android:icon="@drawable/outline_cloud_off_24"
+                    android:title="@string/menu_nav_lan_lists" />
+                <item
+                    android:id="@+id/menu_nav_lan_add_device_id"
+                    android:icon="@drawable/outline_add_24"
+                    android:title="@string/menu_nav_lan_add_device" />
+            </menu>
+        </item>
+        <!-- menu items regarding to LAN devices - END -->
+
+        <!-- menu items regarding to other - START -->
+        <item android:title="@string/menu_nav_more">
+            <menu>
+                <item
+                    android:id="@+id/menu_nav_more_login_id"
+                    android:icon="@drawable/ic_outline_perm_identity_24"
+                    android:title="@string/menu_nav_more_login" />
+                <item
+                    android:id="@+id/menu_nav_more_settings_id"
+                    android:icon="@drawable/outline_settings_24"
+                    android:title="@string/menu_nav_more_settings" />
+            </menu>
+        </item>
+        <!-- menu items regarding to other - END -->
+    </group>
+</menu>

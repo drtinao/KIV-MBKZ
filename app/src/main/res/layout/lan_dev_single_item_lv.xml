@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+
+    <TextView
+        android:id="@+id/lan_dev_single_item_lv_name_tv_id"
+        android:text="@string/lan_dev_single_item_lv_name_placeholder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:focusable="false" />
+
+    <TextView
+        android:id="@+id/lan_dev_single_item_lv_mac_tv_id"
+        android:text="@string/lan_dev_single_item_lv_mac_placeholder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lan_dev_single_item_lv_name_tv_id"
+        android:focusable="false" />
+
+    <ImageButton
+        android:id="@+id/lan_dev_single_item_lv_start_ib_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:focusable="false"
+        android:src="@drawable/ic_baseline_power_settings_new_24" />
+
+    <ImageButton
+        android:id="@+id/lan_dev_single_item_lv_delete_ib_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:src="@drawable/ic_baseline_delete_forever_24"
+        android:layout_toStartOf="@id/lan_dev_single_item_lv_start_ib_id" />
+</RelativeLayout>

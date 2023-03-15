@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/uni_add_device_frag_name_lay_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <EditText
+            android:id="@+id/uni_add_device_frag_name_et_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/add_device_frag_name_hint"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/uni_add_device_frag_mac_lay_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/uni_add_device_frag_name_lay_id"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <EditText
+            android:id="@+id/uni_add_device_frag_mac_et_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:digits="0123456789-:abcdefABCDEF"
+            android:hint="@string/add_device_frag_mac_hint"
+            android:maxLength="17"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/uni_add_device_frag_seg_lay_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/uni_add_device_frag_mac_lay_id"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/uni_add_device_frag_seg"
+            android:layout_gravity="center_vertical"/>
+
+        <Spinner
+            android:id="@+id/uni_add_device_frag_seg_spin_id"
+            android:entries="@array/uni_add_device_entries"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="15dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/uni_add_device_frag_test_dev_btn_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/uni_add_device_frag_seg_lay_id"
+        android:layout_centerHorizontal="true"
+        android:text="@string/uni_add_device_frag_test" />
+
+    <TextView
+        android:id="@+id/uni_add_device_frag_log_title_tv_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/uni_add_device_frag_test_dev_btn_id"
+        android:layout_centerHorizontal="true"
+        android:padding="15dp"
+        android:text="@string/uni_add_device_frag_log_title" />
+
+    <TextView
+        android:id="@+id/uni_add_device_frag_log_cont_tv_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/uni_add_device_frag_send_req_btn_id"
+        android:layout_below="@id/uni_add_device_frag_log_title_tv_id"
+        android:gravity="bottom"
+        android:padding="15dp" />
+
+    <Button
+        android:id="@+id/uni_add_device_frag_send_req_btn_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:padding="15dp"
+        android:text="odeslat žádost" />
+</RelativeLayout>

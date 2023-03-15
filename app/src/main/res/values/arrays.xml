@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="add_device_confirm_dialog_name_et_dummy_segment">
+        <item>segment stroj 1</item>
+        <item>segment stroj 2</item>
+        <item>segment stroj 3</item>
+    </string-array>
+
+    <string-array name="uni_add_device_entries">
+        <item>automaticky</item>
+        <item>147.228.63.xxx</item>
+        <item>147.228.64.xxx</item>
+        <item>147.228.67.xxx</item>
+        <item>147.228.127.xxx</item>
+    </string-array>
+
+    <string-array name="def_frag_pref_entries">
+        <item>správa strojů</item>
+        <item>přidání stroje</item>
+        <item>nastavení</item>
+    </string-array>
+
+    <string-array name="def_frag_pref_entry_values">
+        <item>lan_list_frag</item>
+        <item>add_device_frag</item>
+        <item>settings_frag</item>
+    </string-array>
+
+    <string-array name="ping_timeout_pref_entries">
+        <item>2000 ms</item>
+        <item>3000 ms</item>
+        <item>4000 ms</item>
+        <item>5000 ms</item>
+        <item>6000 ms</item>
+        <item>7000 ms</item>
+        <item>8000 ms</item>
+        <item>9000 ms</item>
+        <item>10000 ms</item>
+    </string-array>
+
+    <string-array name="ping_timeout_pref_values">
+        <item>2000</item>
+        <item>3000</item>
+        <item>4000</item>
+        <item>5000</item>
+        <item>6000</item>
+        <item>7000</item>
+        <item>8000</item>
+        <item>9000</item>
+        <item>10000</item>
+    </string-array>
+</resources>

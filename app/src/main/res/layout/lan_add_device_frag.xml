@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:id="@+id/add_device_frag_name_lay_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <EditText
+            android:id="@+id/add_device_frag_name_et_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="@string/add_device_frag_name_hint"
+            android:singleLine="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/add_device_frag_mac_lay_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_device_frag_name_lay_id"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <EditText
+            android:id="@+id/add_device_frag_mac_et_id"
+            android:digits="0123456789-:abcdefABCDEF"
+            android:maxLength="17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:hint="@string/add_device_frag_mac_hint" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/add_device_frag_send_magic_btn_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_device_frag_mac_lay_id"
+        android:layout_centerHorizontal="true"
+        android:text="@string/add_device_frag_send_magic" />
+
+    <View
+        android:id="@+id/add_device_frag_divider_id"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/add_device_frag_send_magic_btn_id"
+        android:background="@android:color/black" />
+
+    <LinearLayout
+        android:id="@+id/add_device_frag_ip_lay_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_device_frag_divider_id"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <EditText
+            android:id="@+id/add_device_frag_ip_et_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:digits="0123456789."
+            android:hint="@string/add_device_frag_ip_hint"
+            android:inputType="number"
+            android:singleLine="true"
+            android:maxLength="15" />
+
+        <Button
+            android:id="@+id/add_device_frag_ip_ping_btn_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_device_frag_ping" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/add_device_frag_hostname_lay_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_device_frag_ip_lay_id"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <EditText
+            android:id="@+id/add_device_frag_hostname_et_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:singleLine="true"
+            android:hint="@string/add_device_frag_hostname_hint" />
+
+        <Button
+            android:id="@+id/add_device_frag_hostname_ping_btn_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_device_frag_ping" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/add_device_frag_log_title_tv_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_device_frag_hostname_lay_id"
+        android:layout_centerHorizontal="true"
+        android:padding="15dp"
+        android:text="@string/add_device_frag_log_title" />
+
+    <TextView
+        android:id="@+id/add_device_frag_log_cont_tv_id"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/add_device_frag_add_device_btn_id"
+        android:layout_below="@id/add_device_frag_log_title_tv_id"
+        android:gravity="bottom"
+        android:padding="15dp" />
+
+    <Button
+        android:id="@+id/add_device_frag_add_device_btn_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:padding="15dp"
+        android:text="@string/add_device_frag_add_device" />
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <ListPreference
+        android:title="@string/prefs_def_frag_pref_title"
+        android:summary="@string/prefs_def_frag_pref_summary"
+        android:key="def_frag_pref"
+        android:entries="@array/def_frag_pref_entries"
+        android:entryValues="@array/def_frag_pref_entry_values"
+        />
+
+    <ListPreference
+        android:title="@string/prefs_ping_timeout_pref_title"
+        android:summary="@string/prefs_ping_timeout_pref_summary"
+        android:key="ping_timeout_pref"
+        android:entries="@array/ping_timeout_pref_entries"
+        android:entryValues="@array/ping_timeout_pref_values"
+        />
+</PreferenceScreen>

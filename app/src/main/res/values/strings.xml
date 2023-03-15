@@ -1,0 +1,234 @@
+<resources>
+    <string name="app_name">MagicWOL</string>
+
+    <!-- strings regarding to activity_main.xml - START -->
+    <string name="activity_main_drawer_open">Otevřít nabídku</string>
+    <string name="activity_main_drawer_close">Zavřít nabídku</string>
+    <!-- strings regarding to activity_main.xml - END -->
+
+    <!-- strings regarding to menu_nav.xml - START -->
+    <string name="menu_nav_lan">Lokální síť</string>
+    <string name="menu_nav_lan_lists">Seznamy strojů</string>
+    <string name="menu_nav_lan_add_device">Přidat nový stroj</string>
+
+    <string name="menu_nav_uni">Univerzita</string>
+    <string name="menu_nav_uni_lists">Seznamy strojů</string>
+    <string name="menu_nav_uni_add_device">Přidat nový stroj</string>
+
+    <string name="menu_nav_more">Další možnosti</string>
+    <string name="menu_nav_more_login">Přihlášení</string>
+    <string name="menu_nav_more_logout">Odhlášení</string>
+    <string name="menu_nav_more_settings">Nastavení</string>
+    <!-- strings regarding to menu_nav.xml - END -->
+
+    <!-- strings regarding to add_device_confirm_dialog.xml - START -->
+    <string name="add_device_confirm_dialog_loc">Lokace stroje:</string>
+    <string name="add_device_confirm_dialog_loc_uni">univerzita</string>
+    <string name="add_device_confirm_dialog_loc_seg">segment</string>
+    <string name="add_device_confirm_dialog_device_name">Název stroje</string>
+    <string name="add_device_confirm_dialog_list_add">+</string>
+    <string name="add_device_confirm_dialog_recap">Rekapitulace informací o stroji</string>
+    <string name="add_device_confirm_dialog_ip_recap_title">IP:</string>
+    <string name="add_device_confirm_dialog_ip_recap_holder">IP placeholder</string>
+    <string name="add_device_confirm_dialog_hostname_recap_title">Hostname:</string>
+    <string name="add_device_confirm_dialog_hostname_recap_holder">Hostname placeholder</string>
+    <string name="add_device_confirm_dialog_mac_recap_title">MAC:</string>
+    <string name="add_device_confirm_dialog_mac_recap_holder">MAC placeholder</string>
+    <string name="add_device_confirm_dialog_name_recap_title">Název:</string>
+    <string name="add_device_confirm_dialog_name_recap_holder">Název placeholder</string>
+    <string name="add_device_confirm_dialog_category_recap_title">Kategorie:</string>
+    <string name="add_device_confirm_dialog_category_recap_holder">Kategorie placeholder</string>
+    <string name="add_device_confirm_dialog_list_recap_title">Seznam:</string>
+    <string name="add_device_confirm_dialog_list_recap_holder">Seznam placeholder</string>
+
+    <string name="add_device_confirm_dialog_title">Přidat stroj</string>
+    <string name="add_device_confirm_dialog_negative_btn">Zrušit</string>
+    <string name="add_device_confirm_dialog_positive_btn">Přidat stroj</string>
+    <!-- strings regarding to add_device_confirm_dialog.xml - END -->
+
+    <!-- strings regarding to lan_device_detail_dialog.xml - START -->
+    <string name="lan_dev_detail_dialog_title">Detail stroje</string>
+    <string name="lan_dev_detail_dialog_name_title">Název:</string>
+    <string name="lan_dev_detail_dialog_name_holder">Název placeholder</string>
+    <string name="lan_dev_detail_dialog_mac_title">MAC:</string>
+    <string name="lan_dev_detail_dialog_mac_holder">MAC placeholder</string>
+    <string name="lan_dev_detail_dialog_ip_title">IP:</string>
+    <string name="lan_dev_detail_dialog_ip_holder">IP placeholder</string>
+    <string name="lan_dev_detail_dialog_hostname_title">Hostname:</string>
+    <string name="lan_dev_detail_dialog_hostname_holder">Hostname placeholder</string>
+    <!-- strings regarding to lan_device_detail_dialog.xml - END -->
+
+    <!-- strings regarding to lan_dev_edit_dialog.xml - START -->
+    <string name="lan_dev_edit_dialog_title">Editace stroje</string>
+    <string name="lan_dev_edit_dialog_name_title">Název:</string>
+    <string name="lan_dev_edit_dialog_name_hint">název stroje</string>
+    <string name="lan_dev_edit_dialog_mac_title">MAC:</string>
+    <string name="lan_dev_edit_dialog_mac_hint">MAC stroje</string>
+    <string name="lan_dev_edit_dialog_ip_title">IP:</string>
+    <string name="lan_dev_edit_dialog_ip_hint">(volitelné) IP stroje</string>
+    <string name="lan_dev_edit_dialog_hostname_title">Hostname:</string>
+    <string name="lan_dev_edit_dialog_hostname_hint">(volitelné) hostname stroje</string>
+    <string name="lan_dev_edit_dialog_positive_btn">Uložit změny</string>
+    <string name="lan_dev_edit_dialog_negative_btn">Zrušit</string>
+    <string name="lan_dev_edit_dialog_name_mis_toast">zadejte název stroje!</string>
+    <string name="lan_dev_edit_dialog_mac_mis_toast">zadejte MAC stroje!</string>
+    <string name="lan_dev_edit_dialog_mac_alert_title">Nevalidní MAC</string>
+    <string name="lan_dev_edit_dialog_mac_alert_mes_1">MAC stroje není ve validním formátu!</string>
+    <string name="lan_dev_edit_dialog_mac_alert_mes_2">Validní MAC adresa je ve formátu XX:XX:XX:XX:XX:XX či XX-XX-XX-XX-XX-XX, kde XX jsou hexadecimální číslice.</string>
+    <string name="lan_dev_edit_dialog_mac_alert_mes_3">Proveďte kontrolu MAC adresy stroje a pokus opakujte.</string>
+    <string name="lan_dev_edit_dialog_ip_invalid_toast">zadaná IP stroje není validní!</string>
+    <!-- strings regarding to lan_dev_edit_dialog.xml - END -->
+
+    <!-- strings regarding to add_device_frag.xml - START -->
+    <string name="add_device_frag_name_hint">název stroje</string>
+    <string name="add_device_frag_ip_hint">(volitelné) IP stroje</string>
+    <string name="add_device_frag_ping">ping</string>
+    <string name="add_device_frag_hostname_hint">(volitelné) hostname stroje</string>
+    <string name="add_device_frag_mac_hint">MAC stroje</string>
+    <string name="add_device_frag_get_mac">Získat MAC</string>
+    <string name="add_device_frag_send_magic">Odeslat magic packet</string>
+    <string name="add_device_frag_log_title">Log událostí</string>
+    <string name="add_device_frag_add_device">Přidat do seznamu strojů</string>
+    <string name="add_device_frag_broad_ip_alert_title">Nevalidní IP</string>
+    <string name="add_device_frag_broad_ip_alert_mes_1">Nebyla zjištěna validní broadcast IP sítě!</string>
+    <string name="add_device_frag_broad_ip_alert_mes_2">Zkontrolujte, zda jste připojeni k WiFi síti a pokus opakujte.</string>
+    <string name="add_device_frag_dev_mac_alert_title">Nevalidní MAC</string>
+    <string name="add_device_frag_dev_mac_alert_mes_1">MAC stroje není ve validním formátu!</string>
+    <string name="add_device_frag_dev_mac_alert_mes_2">Validní MAC adresa je ve formátu XX:XX:XX:XX:XX:XX či XX-XX-XX-XX-XX-XX, kde XX jsou hexadecimální číslice.</string>
+    <string name="add_device_frag_dev_mac_alert_mes_3">Proveďte kontrolu MAC adresy stroje a pokus opakujte.</string>
+    <string name="add_device_frag_name_mis_toast">zadejte název stroje!</string>
+    <string name="add_device_frag_mac_mis_toast">zadejte MAC stroje!</string>
+    <string name="add_device_frag_ip_invalid_toast">zadaná IP stroje není validní!</string>
+    <string name="add_device_frag_list_not_sel_toast">zvolte cílový seznam!</string>
+    <string name="add_device_frag_ip_mis_toast">zadejte IP stroje!</string>
+    <string name="add_device_frag_hostname_mis_toast">zadejte hostname stroje!</string>
+    <string name="add_device_frag_log_divider">**************************</string>
+    <string name="add_device_frag_log_magic_1">odesílám Magic Packet</string>
+    <string name="add_device_frag_log_magic_2">broadcast IP: </string>
+    <string name="add_device_frag_log_magic_3">MAC: </string>
+    <string name="add_device_frag_log_magic_4">Magic Packet odeslán</string>
+    <string name="add_device_frag_log_ping_1_err">neplatný pokus o ping zařízení</string>
+    <string name="add_device_frag_log_ping_1">zahájen ping zařízení</string>
+    <string name="add_device_frag_log_ping_2">IP / hostname: </string>
+    <string name="add_device_frag_log_ping_3">timeout: </string>
+    <string name="add_device_frag_log_ping_true">zařízení pinguje!</string>
+    <string name="add_device_frag_log_ping_false">zařízení NEpinguje!</string>
+    <string name="add_device_frag_ping_pd_title">Čekejte</string>
+    <string name="add_device_frag_ping_pd_mes_1">čekám na odpověď od zařízení</string>
+    <string name="add_device_frag_ping_pd_mes_2">IP / hostname: </string>
+    <string name="add_device_frag_ping_pd_mes_3">timeout: </string>
+    <string name="add_device_frag_pref_list_toast">předvolen seznam</string>
+    <string name="add_device_frag_lan_dev_saved_toast">uloženo do seznamu</string>
+    <string name="add_device_frag_already_exists_toast">shodné zařízení (název / MAC) se již nachází v seznamu</string>
+    <!-- strings regarding to add_device_frag.xml - END -->
+
+    <!-- strings regarding to login_frag.xml - START -->
+    <string name="login_frag_login_hint">Orion login</string>
+    <string name="login_frag_pass_hint">heslo</string>
+    <string name="login_frag_login_btn">přihlásit se</string>
+    <string name="login_frag_login_info">Pro využití plné funkcionality aplikace se prosím přihlašte prostřednictvím Orion konta.</string>
+    <string name="login_frag_no_login_info">Pokud Orion konto nevlastníte nebo se nechcete přihlásit, je možné aplikaci využít pouze pro správu lokální sítě. Bez přihlášení není možné pracovat s univerzitními stroji.</string>
+    <string name="login_frag_no_login_btn">pokračovat bez přihlášení</string>
+    <string name="login_frag_orion_alert_title">Chyba ověření</string>
+    <string name="login_frag_orion_alert_mes_not_found">Zadaný login nebyl nalezen v Orion databázi uživatelů!</string>
+    <string name="login_frag_orion_alert_mes_wrong_pass">Zadané heslo není správné!</string>
+    <string name="login_frag_orion_alert_mes_server">Uživatele se nepodařilo ověřit. Zkontrolujte, zda se pomocí uvedeného účtu přihlásite ke službám univerzity.</string>
+    <string name="login_frag_orion_alert_end_try">Zkontrolujte přihlašovací údaje a pokus opakujte.</string>
+    <!-- strings regarding to login_frag.xml - END -->
+
+    <!-- strings regarding to uni_add_device_frag.xml - START -->
+    <string name="uni_add_device_frag_seg">segment sítě:</string>
+    <string name="uni_add_device_frag_test">otestovat stav stroje</string>
+    <string name="uni_add_device_frag_log_title">Log událostí</string>
+    <string name="uni_add_device_frag_log_divider">**************************</string>
+    <string name="uni_add_device_frag_log_test_1">zjištění stavu zařízení</string>
+    <string name="uni_add_device_frag_log_test_2">MAC:</string>
+    <string name="uni_add_device_frag_log_test_3">segment sítě:</string>
+    <string name="uni_add_device_frag_log_test_4">timeout:</string>
+    <string name="uni_add_device_frag_log_test_5_false">zařízení prozatím není registrováno</string>
+    <string name="uni_add_device_frag_log_test_5_true">zařízení je již registrováno</string>
+    <string name="uni_add_device_frag_log_test_6_true">zařízení pinguje!</string>
+    <string name="uni_add_device_frag_log_test_6_false">zařízení NEpinguje!</string>
+    <!-- strings regarding to uni_add_device_frag.xml - END -->
+
+    <!-- strings regarding to add_lan_list_dialog.xml - START -->
+    <string name="add_lan_list_dialog_name_hint">název seznamu</string>
+    <string name="add_lan_list_dialog_desc_hint">popis seznamu</string>
+
+    <string name="add_lan_list_dialog_title">Nový seznam</string>
+    <string name="add_lan_list_dialog_negative_btn">Zrušit</string>
+    <string name="add_lan_list_dialog_positive_btn">Přidat seznam</string>
+    <string name="add_lan_list_already_exists_toast">seznam s tímto názvem již existuje!</string>
+    <string name="add_lan_list_name_mis_toast">zadejte název seznamu!</string>
+    <!-- strings regarding to add_lan_list_dialog.xml - END -->
+
+    <!-- strings regarding to lan_list_edit_dialog.xml - START -->
+    <string name="lan_list_edit_dialog_title">Editace seznamu</string>
+    <string name="lan_list_edit_dialog_name_hint">název seznamu</string>
+    <string name="lan_list_edit_dialog_desc_hint">popis seznamu</string>
+    <string name="lan_list_edit_dialog_name_mis_toast">zadejte název seznamu!</string>
+    <!-- strings regarding to lan_list_edit_dialog.xml - END -->
+
+    <!-- strings regarding to lan_list_bar.xml - START -->
+    <string name="lan_list_bar_add_title">přidat seznam</string>
+    <!-- strings regarding to lan_list_bar.xml - END -->
+
+    <!-- strings regarding to lan_list_frag.xml - START -->
+    <string name="lan_list_frag_sv_hint">hledat</string>
+    <string name="lan_list_frag_remove_dialog_title">Odstranit?</string>
+    <string name="lan_list_frag_remove_dialog_cont_1">Opravdu chcete odstranit seznam</string>
+    <string name="lan_list_frag_remove_dialog_cont_2">včetně strojů, které do něj náleží?</string>
+    <string name="lan_list_frag_saved_toast">vytvořen seznam</string>
+    <string name="lan_list_frag_no_desc_viewholder">(popis nedefinován)</string>
+    <string name="lan_list_frag_removed_toast">odstraněn seznam</string>
+    <string name="lan_list_no_dev">v seznamu se nenachází žádné zařízení!</string>
+    <!-- strings regarding to lan_list_frag.xml - END -->
+
+    <!-- strings regarding to lan_dev_frag.xml - START -->
+    <string name="lan_dev_frag_sv_hint">hledat</string>
+    <string name="lan_dev_frag_remove_dialog_title">Odstranit?</string>
+    <string name="lan_dev_frag_remove_dialog_cont_1">Opravdu chcete odstranit zařízení</string>
+    <string name="lan_dev_frag_remove_dialog_cont_2">\?</string>
+    <string name="lan_dev_frag_removed_toast">odstraněno zařízení</string>
+    <!-- strings regarding to lan_dev_frag.xml - END -->
+
+    <!-- strings regarding to prefs.xml - START -->
+    <string name="prefs_def_frag_pref_title">výchozí fragment</string>
+    <string name="prefs_def_frag_pref_summary">fragment, jež se zobrazí při startu aplikace</string>
+    <string name="prefs_ping_timeout_pref_title">ping timeout</string>
+    <string name="prefs_ping_timeout_pref_summary">čas, jež je vymezen pro ping stroje</string>
+    <!-- strings regarding to prefs.xml - END -->
+
+    <!-- strings regarding to lan_dev_single_item_lv.xml - START -->
+    <string name="lan_dev_single_item_lv_name_placeholder">název zařízení</string>
+    <string name="lan_dev_single_item_lv_mac_placeholder">MAC zařízení</string>
+    <!-- strings regarding to lan_dev_single_item_lv.xml - END -->
+
+    <!-- strings regarding to lan_list_single_item_lv.xml - START -->
+    <string name="lan_list_single_item_lv_name_placeholder">název listu</string>
+    <string name="lan_list_single_item_lv_desc_placeholder">popis listu</string>
+    <!-- strings regarding to lan_list_single_item_lv.xml - END -->
+
+    <!-- strings regarding to titles of individual user screens / fragments - START -->
+    <string name="lan_list_frag_title">Seznamy strojů</string>
+    <string name="lan_dev_frag_title">Seznam</string>
+    <string name="add_device_frag_title">Nové zařízení</string>
+    <string name="uni_add_device_frag_title">Žádost o přidání</string>
+    <string name="pref_frag_title">Nastavení</string>
+    <string name="login_frag_title">Přihlášení</string>
+    <!-- strings regarding to titles of individual user screens / fragments - END -->
+
+    <!-- universal strings used in various parts of UI - START -->
+    <string name="alert_ok_btn">OK</string>
+    <string name="ping_timeout_lan_measure">ms</string>
+    <string name="dialog_positive_btn_yes">Ano</string>
+    <string name="dialog_negative_btn_no">Ne</string>
+    <string name="dialog_positive_btn_edit">upravit</string>
+    <string name="dialog_negative_btn_cancel">zrušit</string>
+    <string name="cancel_toast">zrušeno</string>
+    <string name="lan_dev_started_1">zapnuto zařízení</string>
+    <string name="lan_dev_started_2">název:</string>
+    <string name="lan_dev_started_3">MAC:</string>
+    <string name="broadcast_ip_error_toast">zkontrolujte připojení k WiFi a pokus opakujte!</string>
+    <!-- universal strings used in various parts of UI - END -->
+</resources>
